@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+
+    <color name="text_color_dark_84">#90243455</color>
+    <color name="bg_choclate">#3d3b37</color>
+
+    <!--    <color name="nv_selected_color">#FC2D2D</color>-->
+
+</resources>

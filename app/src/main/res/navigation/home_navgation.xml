@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/splash">
+
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.plantix.features.splash.SplashFragment"
+        android:label="SplashFragment">
+        <action
+            android:id="@+id/action_splash_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.plantix.features.list.ListFragment"
+        android:label="LoginFragmentFragment">
+    </fragment>
+
+
+</navigation>

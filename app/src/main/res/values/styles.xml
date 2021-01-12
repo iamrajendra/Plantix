@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/black</item>
+    </style>
+
+
+    <style name="AppTheme_NoActionBar1" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bg_choclate</item>
+        <item name="colorPrimaryDark">@color/bg_choclate</item>
+        <item name="colorAccent">@color/bg_choclate</item>
+        <item name="colorControlHighlight">@color/text_color_dark_84</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:statusBarColor">@color/bg_choclate</item>
+    </style>
+
+</resources>
